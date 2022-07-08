@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="app.js"></script>
+  </head>
+  <style>
+    input {
+      margin-left: 1rem;
+
+      padding: 0.5rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      border-radius: 0.5rem;
+      font-size: 20px;
+    }
+    ul {
+      font-size: 25px;
+    }
+    .btn,
+    button {
+      background-color: aquamarine;
+      margin-left: 1rem;
+      border-style: none;
+      padding: 0.5rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      border-radius: 0.5rem;
+      font-size: 20px;
+      margin-bottom: 1rem;
+    }
+    body {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div>
+      <input
+        type="text"
+        placeholder="enter your task"
+        name=""
+        id="input_todo"
+      />
+      <button onclick="Todo()">Add Item</button>
+      <button onclick="deleteAll()">Delete All</button>
+    </div>
+    <div>
+      <ul id="list"></ul>
+    </div>
+  </body>
+</html>
